@@ -1,0 +1,83 @@
+/* basic styles for the page */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Add styles for the header */
+header {
+    background-image: url(/sem4-project-main/images/profile.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+}
+
+/* styles for the profile information */
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 80vh;
+    text-align: center;
+}
+
+.profile p {
+    font-size: 1.2rem;
+    margin: 0;
+    padding: 20px;
+}
+
+.profile ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.profile li {
+    display: inline-block;
+    margin: 10px;
+    border-radius: 6px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+.profile li span {
+    font-weight: bold;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.btn button,
+.profile button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #444444;
+}

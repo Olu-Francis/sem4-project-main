@@ -1,0 +1,108 @@
+/* Default styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.our_hotel_title,
+.facilities_title {
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Add styles for the header */
+header {
+    background-image: url(/sem4-project-main/images/header-image.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 900px;
+    text-align: center;
+    color: #fff;
+    padding: 20px;
+    font-size: large;
+    padding: 125px;
+    height: 600px;
+    width: 100%;
+}
+
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div {
+    width: 100%;
+}
+
+/* Add styles for the sections */
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-bottom: 40px;
+}
+
+/* Add styles for the images */
+.hotel_class
+img {
+    width: 600px;
+    height: 400px;
+    object-fit: cover;
+    margin: 0 20px;
+}
+
+li 
+img {
+    display: flex;
+    margin-bottom: 10px;
+    object-fit: cover;
+    width: 400px;
+}
+
+/* Add styles for the footer */
+footer {
+    font-size: large;
+    padding: 50px 0;
+    text-align: center;
+    color: #ffffff;
+    padding: 50px;
+    bottom: 0;
+    background-color: #4b4545;
+    text-align: center;
+}
+
+
+/* Responsive styling */
+@media screen and (min-width: 768px) {
+    main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    section {
+        padding: 10px 20px;
+    }
+}

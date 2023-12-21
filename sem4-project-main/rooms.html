@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Rooms - Rakel Hotel</title>
+    <link rel="stylesheet" href="styles/rooms_style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Our Rooms</h1>
+    </header>
+    <button id="search-btn">🔍</button>
+
+    <div id="search-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Search</h2>
+            <form>
+                <input type="search" placeholder="Search for a Room...">
+                <button type="submit">Search for a Room</button>
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <div class="room" id="deluxe-room">
+            <img src="images/deluxe-room.png" alt="Deluxe Room">
+            <div class="room-info">
+                <div class="room-type">Deluxe Room</div>
+                <p>Our Deluxe Rooms are spacious and luxurious, featuring comfortable beds, flat-screen TVs, and modern
+                    amenities.</p>
+                <p class="room-price">Starting from $200 per night</p>
+                <br>
+                <a href="booking.html" class="room-button">Book now</a>
+            </div>
+        </div>
+        <div class="room" id="superior-room">
+            <img src="images/superior-room.jpg" alt="Superior Room">
+            <div class="room-info">
+                <div class="room-type">Superior Room</div>
+                <p>Our Superior Rooms are comfortable and stylish, offering all the essentials for a relaxing stay. </p>
+                <p class="room-price">Starting from $150 per night</p>
+                <br>
+                <a href="booking.html" class="room-button">Book now</a>
+            </div>
+        </div>
+        <div class="room" id="standard-room">
+            <img src="/images/standard-room.jpg" alt="Standard Room">
+            <div class="room-info">
+                <div class="room-type">Standard Room</div>
+                <p>Our Standard Rooms are simple and affordable, providing a comfortable place to stay for travelers on
+                    a budget. </p>
+                <p class="room-price">Starting from $100 per night</p>
+                <br>
+                <a href="booking.html" class="room-button">Book now</a>
+            </div>
+        </div>
+        <div class="room" id="student-room">
+            <img src="images/student-room.jpg" alt="Student Room">
+            <div class="room-info">
+                <div class="room-type">Student Room</div>
+                <p>Our Student Rooms are simple and affordable, providing a comfortable place to stay for
+                    both international and local students looking for a place to crash and is on
+                    a budget. </p>
+                <p class="room-price">Starting from $80 per night</p>
+                <br>
+                <a href="booking.html" class="room-button">Book now</a>
+            </div>
+        </div>
+        <div class="room" id="family-room">
+            <img src="images/family-room.jpg" alt="Family Room">
+            <div class="room-info">
+                <div class="room-type">Family Room</div>
+                <p>Our Family Room is a uniqe feature that assigns a flat to an entire family.</p>
+                <p class="room-price">Starting from $250 per night</p>
+                <br>
+                <a href="booking.html" class="room-button">Book now</a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2023 RHotel</p>
+        <p>
+            Address: 1 Teslim Balogun Street, Surulere, Lagos <br>
+            Phone: 08029324922, <br>
+            Email: info@rhotel.com
+        </p>
+    </footer>
+
+    <script src="javascript/room_js.js"></script>
+</body>
+
+</html>

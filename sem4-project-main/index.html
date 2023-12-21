@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>R Hotel</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Welcome to R Hotel</h1>
+        <p>Experience comfort and luxury like never before!!</p>
+        <div>
+            <button onclick="window.location.href='#login-modal'" id="myBtn">Book a Room</button>
+            <button onclick="window.location.href='about_us.html'">Learn More</button>
+        </div>
+    </header>
+
+    <!-- The Login Modal -->
+    <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Login/Register</h2><br><br>
+            <form action="rooms.html">
+                <label for="name">FullName:</label>
+                <input type="text" name="name" id="name" required>
+                <br><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="phone_no">Phone number:</label>
+                <input type="tel" id="phone_no" name="phone_no" required>
+                <br><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br><br>
+                <label for="password_verification">Re-enter Password:</label>
+                <input type="password" name="password_verification" id="password_verification">
+                <br><br>
+                <button onclick="window.location.href='profile.html'">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="about">
+        <h2>About Us</h2><br>
+        <h3>Rakel Hotel is a luxurious hotel located in the heart of the city. We offer top-notch facilities and amenities to ensure that our guests have a comfortable and memorable stay with us.</h3>
+    </div>
+    <div class="content welcome">
+        <h2>Our Features</h2>
+        <hr><br>
+        <div class="feature">
+            <div class="features">
+                <h3>Spacious Rooms</h3>
+                <p>Our rooms are spacious and equipped with all the necessary amenities to ensure a comfortable stay.
+                </p><br>
+                <img src="images/spacious_room_1.jpg" alt="spacious_room_1">
+                <img src="images/spacious_room_2.jpg" alt="spacious_room_2">
+                <img src="images/spacious_room_3.jpg" alt="spacious_room_3">
+                <img src="images/spacious_room_4.jpg" alt="spacious_room_4">
+            </div>
+
+            <div class="features">
+                <h3>Fine Dining</h3>
+                <p>Indulge in a delicious meal at our in-house restaurant serving a variety of cuisines.</p><br>
+                <img src="images/hotel_dining_1.jpg" alt="hotel_dining_1">
+                <img src="images/hotel_dining_2.jpg" alt="hotel_dining_2">
+                <img src="images/hotel_dining_3.jpg" alt="hotel_dining_3">
+                <img src="images/hotel_dining_4.jpg" alt="hotel_dining_4">
+            </div>
+
+            <div class="features">
+                <h3>Recreation Facilities</h3>
+                <p>Enjoy a refreshing swim in our pool, play a game of tennis or relax at our spa.</p><br>
+                <img src="images/recreation_1.jpg" alt="recreation_1">
+                <img src="images/recreation_2.jpg" alt="recreation_2">
+                <img src="images/recreation_3.jpg" alt="recreation_3">
+                <img src="images/fitness.jpg" alt="recreation_4">
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>Copyright &copy; 2023 RHotel</p>
+        <p>
+            Address: 1 Teslim Balogun Street, Surulere, Lagos <br>
+            Phone: 08029324922, <br>
+            Email: info@rhotel.com
+        </p>
+    </footer>
+
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>

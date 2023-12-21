@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(/sem4-project-main/images/check-in.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 900px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #fff;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  width: fit-content;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.form-row {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+div {
+  padding: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="number"],
+#room-type,
+select,
+textarea {
+  /* width: 500px;
+  padding: 10px; */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.5em;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  flex-basis: 50%;
+  margin-top: 1em;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #444;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 700px) {
+
+  body {
+    background-image: url(/sem4-project-main/images/check-in.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: fit-content fit-content;
+  }
+
+  .special {
+    color: #000000;
+  }
+
+  label {
+    flex-basis: 50%;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+}

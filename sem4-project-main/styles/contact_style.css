@@ -1,0 +1,92 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #4b4545;
+}
+
+/* Add styles for the header */
+header {
+    background-image: url(/sem4-project-main/images/feedback.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 900px;
+    height: 500px;
+    text-align: center;
+    padding: 50px 700px;
+    color: #fff;
+    padding: 20px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.message {
+    background-color: #333;
+    color: #fff;
+    font-size: medium;
+    text-align: center;
+    width: 100px;
+    padding: 5px;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+/* Add styles for the contact form */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    margin: 50px auto;
+    padding: 50px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+/* Add styles for the form inputs */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+
+/* Add styles for the form submit button */
+input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Add styles for the footer */
+footer {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    bottom: 0;
+}
